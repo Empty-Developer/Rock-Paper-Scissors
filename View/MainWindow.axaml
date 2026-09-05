@@ -40,9 +40,24 @@
                 <Button Content="Rock" Background="#2C2C2C" Classes="primary"/>
                 <Button Content="Paper" Background="#8A0202" Classes="primary"/>
                 <Button Content="Scissors" Background="#2222E7" Classes="primary"/>
+                <TextBlock
+                  Text="Player"
+                  FontSize="12"
+                />
                 <Label
                   Classes="primary"
-                  Padding="20,0,0,0"
+                  Padding="10,0,0,0"
+                >
+                  0
+                </Label>
+
+                <TextBlock
+                  Text="Computer"
+                  FontSize="12"
+                />
+                <Label
+                  Classes="primary"
+                  Padding="10,0,0,0"
                 >
                   0
                 </Label>

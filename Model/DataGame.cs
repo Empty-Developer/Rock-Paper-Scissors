@@ -6,3 +6,27 @@ public enum GameObject
   Paper,
   Scissors
 }
+
+public class DataGame
+{
+  public int Player
+  {
+    get;
+    private set;
+  }
+  public int Computer
+  {
+    get;
+    private set;
+  }
+
+  public void AddPlayerCount()
+  {
+    Player++;
+  }
+
+  public void AddComputerCount()
+  {
+    Computer++;
+  }
+}
