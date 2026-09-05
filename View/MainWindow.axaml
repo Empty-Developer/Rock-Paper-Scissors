@@ -1,0 +1,52 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="Rock_Paper_Scissors.MainWindow"
+        Title="Rock Paper Scissors Game">
+
+        <Window.Styles>
+          <Style Selector="Button.primary">
+            <Setter Property="Padding" Value="20,10"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+          </Style>
+          <Style Selector="Label.primary">
+            <Setter Property="Padding" Value="0,0,0,40"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+          </Style>
+        </Window.Styles>
+    
+    <Border Padding="50">
+      <StackPanel Spacing="20" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
+            <TextBlock
+              FontWeight="Bold"
+              Text="Rock Paper Scissors Game"
+              FontSize="36"
+              Padding="0,0,0,40"
+            />
+
+            <Label
+              Classes="primary"
+            >
+              Wait...
+            </Label>
+
+            <StackPanel Orientation="Horizontal" Spacing="10">
+              
+                <Button Content="Rock" Background="#2C2C2C" Classes="primary"/>
+                <Button Content="Paper" Background="#8A0202" Classes="primary"/>
+                <Button Content="Scissors" Background="#2222E7" Classes="primary"/>
+                <Label
+                  Classes="primary"
+                  Padding="20,0,0,0"
+                >
+                  0
+                </Label>
+            </StackPanel>
+      </StackPanel>
+    </Border>
+</Window>
