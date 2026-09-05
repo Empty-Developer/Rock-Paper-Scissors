@@ -1,5 +1,15 @@
 # Rock Paper Scissors (Avalonia UI)
 
+<p>
+  <a href="https://wakatime.com/badge/user/fdcea843-56ea-404c-838b-f7f306de46b6/project/cd82fe9d-df98-4e38-a6d3-8944217ed6af"><img src="https://wakatime.com/badge/user/fdcea843-56ea-404c-838b-f7f306de46b6/project/cd82fe9d-df98-4e38-a6d3-8944217ed6af.svg" alt="wakatime"></a>
+  <img src="https://img.shields.io/badge/C%23-.NET-512BD4?logo=csharp&logoColor=white" alt="C# .NET">
+  <img src="https://img.shields.io/badge/UI-Avalonia-6B4FBB?logo=avalonia&logoColor=white" alt="Avalonia UI">
+  <img src="https://img.shields.io/badge/pattern-MVP-blue" alt="MVP Pattern">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey" alt="Cross-platform">
+  <img src="https://img.shields.io/github/last-commit/Empty-Developer/Rock-Paper-Scissors" alt="Last commit">
+  <img src="https://img.shields.io/github/license/Empty-Developer/Rock-Paper-Scissors" alt="License">
+</p>
+
 A simple cross-platform desktop "Rock, Paper, Scissors" game built with **C#** and the **Avalonia UI** framework. The project follows the **MVP (Model-View-Presenter)** pattern, cleanly separating game logic, state, and the user interface.
 
 Repository: [Empty-Developer/Rock-Paper-Scissors](https://github.com/Empty-Developer/Rock-Paper-Scissors)
