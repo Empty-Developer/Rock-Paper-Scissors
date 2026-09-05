@@ -1,6 +1,7 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
+using Rock_Paper_Scissors.View;
 
 namespace Rock_Paper_Scissors;
 

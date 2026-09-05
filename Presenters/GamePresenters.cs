@@ -14,6 +14,9 @@ public class GamePresenters
     _game = game;
   }
 
+  public int PlayerScore => _game.Player;
+  public int ComputerScore => _game.Computer;
+
   // get random computer choice
   private readonly Random _random = new();
   private GameObject GetComputerObject()

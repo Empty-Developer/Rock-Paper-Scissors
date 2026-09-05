@@ -3,7 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="Rock_Paper_Scissors.MainWindow"
+        x:Class="Rock_Paper_Scissors.View.MainWindow"
         Title="Rock Paper Scissors Game">
 
         <Window.Styles>
@@ -31,15 +31,16 @@
 
             <Label
               Classes="primary"
+              x:Name="ResultLabel"
             >
               Wait...
             </Label>
 
             <StackPanel Orientation="Horizontal" Spacing="10">
               
-                <Button Content="Rock" Background="#2C2C2C" Classes="primary"/>
-                <Button Content="Paper" Background="#8A0202" Classes="primary"/>
-                <Button Content="Scissors" Background="#2222E7" Classes="primary"/>
+                <Button Content="Rock" Background="#2C2C2C" Classes="primary" Click="RockButton_Click"/>
+                <Button Content="Paper" Background="#8A0202" Classes="primary" Click="PaperButton_Click"/>
+                <Button Content="Scissors" Background="#2222E7" Classes="primary" Click="ScissorsButton_Click"/>
                 <TextBlock
                   Text="Player"
                   FontSize="12"
@@ -47,6 +48,7 @@
                 <Label
                   Classes="primary"
                   Padding="10,0,0,0"
+                  x:Name="PlayerScoreLabel"
                 >
                   0
                 </Label>
@@ -56,6 +58,7 @@
                   FontSize="12"
                 />
                 <Label
+                x:Name="ComputerScoreLabel"
                   Classes="primary"
                   Padding="10,0,0,0"
                 >
